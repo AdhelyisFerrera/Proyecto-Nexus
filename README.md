@@ -78,7 +78,6 @@ Navegación
 Gestión de estados visuales
 Interactividad en tiempo real
 
-Tailwind CSS
 
 Tailwind CSS
 
@@ -100,17 +99,15 @@ Glassmorphism y estética moderna
 
 React Router
 
-React Router
-
-Se utilizará para manejar la navegación interna entre pantallas.
+React Router se utilizará para manejar la navegación interna entre pantallas.
 
 Ejemplos:
 Login → Dashboard
 Dashboard → Proyecto
 Proyecto → Detalles de tarea
 
-Backend y Servicios Cloud
 
+Backend y Servicios Cloud
 Firebase
 
 Firebase será utilizado como backend principal de Nexus.
@@ -166,7 +163,6 @@ Organización de archivos
 Gestión de documentos
 
 Sistema de PDFs
-
 jsPDF
 
 Biblioteca utilizada para generar documentos PDF directamente desde la aplicación.
@@ -179,7 +175,6 @@ Combinar información y archivos
 Generar documentación organizada
 
 # ⚙️ Herramientas
-
 Deploy y Hosting
 
 Vercel
@@ -194,7 +189,6 @@ HTTPS automático
 Fácil manejo de dominios
 
 Editor de Código
-
 Visual Studio Code
 
 Editor principal para el desarrollo de Nexus.
