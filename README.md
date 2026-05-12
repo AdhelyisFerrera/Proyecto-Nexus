@@ -1,207 +1,187 @@
-# Nexus 
-"Conecta tus tareas. Une tus metas."
+# Nexus
+
+**"Conecta tus tareas. Une tus metas."**
 
 Nexus es el centro inteligente donde se unen tareas, subtareas, proyectos, archivos, documentos y metas. Es el punto de conexión entre tu día a día y tus objetivos grandes.
 
-#  ✏️ Descripción General
+---
+
+## 📋 Descripción General
 
 Nexus es una aplicación moderna de productividad y gestión de tareas diseñada para combinar organización personal, administración de proyectos, manejo de documentos y seguimiento de progreso en un solo espacio inteligente.
 
-A diferencia de las aplicaciones tradicionales de tareas, Nexus conecta tareas con contenido real como:
-
-- PDFs
-- imágenes
-- documentos
-- notas
-- fechas límite
-- checklists
-- archivos adjuntos
+A diferencia de las aplicaciones tradicionales de tareas, Nexus conecta tareas con contenido real como PDFs, imágenes, documentos, notas, fechas límite, checklists y archivos adjuntos.
 
 El objetivo es crear una experiencia de productividad que se sienta:
-
 - organizada
 - relajante
 - motivadora
 - minimalista
 - profesional
 - moderna
- 
-# 🗓️ Estado del proyecto
 
-En desarrollo...
+---
 
-# 💡 Idea Principal
+## 🗓️ Estado del Proyecto
 
-Nexus es el centro inteligente donde se unen:
+**En desarrollo activo** — Versión Alpha
 
-- tareas
-- proyectos
-- subtareas
-- documentos
-- metas
-- archivos
-- productividad
+---
+
+## 💡 Idea Principal / Visión
+
+Nexus es el centro inteligente donde convergen:
+- Tareas y subtareas
+- Proyectos
+- Archivos y documentos
+- Metas y seguimiento de progreso
 
 La aplicación está diseñada para ayudar a usuarios a organizar:
+- Estudios y proyectos escolares
+- Inscripciones universitarias
+- Documentos personales
+- Trabajo y proyectos profesionales
+- Metas personales
+- Productividad diaria
+- Proyectos colaborativos
 
-- estudios
-- proyectos escolares
-- inscripciones universitarias
-- documentos personales
-- trabajo
-- metas personales
-- productividad diaria
-- proyectos colaborativos
+---
 
+## ✨ Características Principales
 
-# 🛠️ Tecnologías
+- **Gestión completa de proyectos** con carpetas y subproyectos
+- **Tareas y subtareas** con checklists avanzados
+- **Adjuntos de archivos** directamente en las tareas (PDF, imágenes, DOCX, etc.)
+- **Exportación a PDF** de tareas y proyectos completos
+- **Calendario** integrado con recordatorios
+- **Dashboard** con estadísticas de productividad
+- **Seguimiento de progreso** y streaks
+- **Búsqueda** y filtros avanzados
+- **Notificaciones** y recordatorios
+- **Modo oscuro** premium (y modo claro)
+- **Diseño mobile-first** completamente responsive
+
+---
+
+## 🔄 User Flow
+
+1. Splash Screen → Login / Registro
+2. Dashboard principal
+3. Proyectos / Carpetas
+4. Lista de tareas
+5. Detalle de tarea (con subtareas y archivos adjuntos)
+6. Gestión de archivos
+7. Calendario y recordatorios
+8. Exportación a PDF
+9. Perfil y estadísticas
+
+---
+
+## 🧩 Branding
+
+- **Nombre:** Nexus
+- **Slogan:** “Conecta tus tareas. Une tus metas.”
+- **Estilo visual:** Modern Minimal + Soft Glassmorphism
+- **Personalidad:** Quiet Luxury Productivity
+- **Sensación:** Elegante, calming, motivadora y profesional
+
+---
+
+## 🎨 Paleta de Colores
+
+**Modo Oscuro (Principal):**
+- Primary: `#7F77DD` (Indigo-Purple)
+- Accent: `#1D9E75` (Teal)
+- Background: `#0F0E1A`
+- Surface/Card: `#231F35`
+- Text: `#F0EFF8`
+- Muted: `rgba(240,239,248,0.5)`
+
+**Modo Claro:**
+- Primary: `#6B5FC6`
+- Accent: `#0F8A6B`
+- Background: `#F8F7FF`
+- Surface: `#FFFFFF`
+
+---
+
+## 🔤 Tipografía
+
+- **Headings:** Satoshi / General Sans
+- **Body:** Inter
+
+---
+
+## 🛠️ Tecnologías
 
 Nexus está desarrollado utilizando tecnologías modernas enfocadas en rendimiento, escalabilidad, experiencia de usuario y facilidad de mantenimiento.
 
-El objetivo del stack tecnológico es permitir un desarrollo profesional, moderno y escalable, manteniendo una arquitectura organizada y eficiente.
+### Frontend
+- **React** — Biblioteca principal para interfaces dinámicas y componentes reutilizables
+- **Tailwind CSS** — Diseño rápido, responsive y consistente
+- **React Router** — Navegación entre pantallas
 
-## Frontend
+### Backend y Servicios Cloud
+- **Firebase** — Backend como servicio
+- **Firebase Authentication** — Autenticación de usuarios (email y Google)
+- **Firestore** — Base de datos NoSQL en tiempo real
+- **Firebase Storage** — Almacenamiento seguro de archivos adjuntos
 
-### React
+### Exportación
+- **jsPDF** — Generación de documentos PDF
 
-React será utilizado como la base principal del frontend de Nexus.
+---
 
-¿Por qué React?
-- Permite crear interfaces modernas y dinámicas.
-- Facilita la reutilización de componentes.
-- Mejora la organización del código.
-- Actualiza la interfaz sin recargar la página.
-- Tiene un ecosistema enorme y ampliamente utilizado en la industria.
+## ⚙️ Herramientas
 
-Se utilizará para:
-- Pantallas de la aplicación
-- Componentes reutilizables
-- Navegación
-- Gestión de estados visuales
-- Interactividad en tiempo real 
+- **Vercel** — Deploy y hosting
+- **Visual Studio Code** — Editor principal
 
-
-### Tailwind CSS
-
-Tailwind CSS será utilizado para el diseño visual y estilos de la aplicación.
-
-¿Por qué Tailwind?
-- Permite crear interfaces modernas rápidamente.
-- Facilita el diseño responsive.
-- Hace más sencillo implementar dark mode.
-- Mantiene el diseño consistente.
-- Reduce la necesidad de escribir CSS manual complejo.
-
-Se utilizará para:
-- Diseño visual
-- Layouts
-- Responsive design
-- Sistema de colores
-- Animaciones básicas
-- Glassmorphism y estética moderna
-
-### React Router
-
-React Router se utilizará para manejar la navegación interna entre pantallas.
-
-Ejemplos:
-Login → Dashboard
-Dashboard → Proyecto
-Proyecto → Detalles de tarea
-
-
-## Backend y Servicios Cloud
-
-### Firebase
-
-Firebase será utilizado como backend principal de Nexus.
-
-¿Por qué Firebase?
-- Facilita el desarrollo rápido.
-- No requiere configurar servidores complejos.
-- Integra autenticación, base de datos y almacenamiento.
-- Tiene excelente integración con React.
-- Ideal para aplicaciones modernas en tiempo real.
-
-### Firebase Authentication
-
-Sistema de autenticación de usuarios.
-
-Permitirá:
-- Registro de usuarios
-- Inicio de sesión
-- Recuperación de contraseña
-- Persistencia de sesión
-- Posible login con Google en el futuro
-
-### Firestore Database
-
-Base de datos NoSQL en tiempo real.
-
-Se utilizará para almacenar:
-- Usuarios
-- Proyectos
-- Tareas
-- Subtareas
-- Progreso
-- Configuraciones
-
-Ventajas:
-- Escalable
-- Tiempo real
-- Flexible
-- Fácil integración con React
-
-### Firebase Storage
-
-Sistema de almacenamiento de archivos.
-
-Permitirá subir:
-- PDFs
-- imágenes
-- documentos
-- archivos adjuntos
-
-Funciones:
-- Upload seguro
-- URLs de acceso
-- Organización de archivos
-- Gestión de documentos
-
-## Sistema de PDFs
-### jsPDF
-
-Biblioteca utilizada para generar documentos PDF directamente desde la aplicación.
-
-Permitirá:
-- Exportar tareas
-- Crear reportes
-- Exportar proyectos
-- Combinar información y archivos
-- Generar documentación organizada
-
-# ⚙️ Herramientas
-## Deploy y Hosting
-
-### Vercel
-
-Vercel será utilizado para publicar y alojar la aplicación.
-
-¿Por qué Vercel?
-- Deploy extremadamente rápido
-- Integración perfecta con GitHub
-- Excelente rendimiento para React
-- HTTPS automático
-- Fácil manejo de dominios
-
-## Editor de Código
-### Visual Studio Code
-
-Editor principal para el desarrollo de Nexus.
-
-Extensiones recomendadas:
+**Extensiones recomendadas:**
 - Prettier
 - Tailwind CSS IntelliSense
-- ES7+ React Snippets
+- ES7+ React/Redux/React-Native snippets
 - GitLens
 - Firebase Explorer
+
+---
+
+## 📁 Estructura del Proyecto
+
+*(Sección pendiente de completar con la estructura real de carpetas)*
+
+---
+
+## 🗄️ Estructura de la Base de Datos
+
+*(Sección pendiente de completar con la estructura de colecciones de Firestore)*
+
+---
+
+## 🛤️ Roadmap
+
+- [ ] MVP con tareas, proyectos y adjuntos
+- [ ] Sistema completo de exportación PDF
+- [ ] Modo claro completo
+- [ ] Notificaciones push
+- [ ] Colaboración en tiempo real
+- [ ] Versiones móviles (PWA)
+
+---
+
+## ✨ Futuras Características
+
+- Temas personalizados
+- Integración con calendario externo
+- IA para sugerencias inteligentes
+- Plantillas de proyectos
+- Modo equipo / workspaces
+
+---
+
+## 🚀 Instalación
+
+```bash
+git clone https://github.com/tuusuario/nexus.git
+cd nexus
+npm install
