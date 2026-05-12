@@ -190,8 +190,8 @@ Excelente rendimiento para React
 HTTPS automático
 Fácil manejo de dominios
 
-Editor de Código
-Visual Studio Code
+## Editor de Código
+### Visual Studio Code
 
 Editor principal para el desarrollo de Nexus.
 
