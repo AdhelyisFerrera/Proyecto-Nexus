@@ -1,8 +1,9 @@
-# Proyecto-Nexus ![Uploading logo.png…]()
+# Nexus 
+Conecta tus tareas. Une tus metas.
 
 Nexus es el centro inteligente donde se unen tareas, subtareas, proyectos, archivos, documentos y metas. Es el punto de conexión entre tu día a día y tus objetivos grandes.
 
-  Descripción General
+#  ✏️ Descripción General
 
 Nexus es una aplicación moderna de productividad y gestión de tareas diseñada para combinar organización personal, administración de proyectos, manejo de documentos y seguimiento de progreso en un solo espacio inteligente.
 
@@ -24,7 +25,12 @@ motivadora
 minimalista
 profesional
 moderna
-  Idea Principal
+ 
+# 🗓️ Estado del proyecto
+
+En desarrollo...
+
+# 💡 Idea Principal
 
 Nexus es el centro inteligente donde se unen:
 
@@ -47,13 +53,14 @@ metas personales
 productividad diaria
 proyectos colaborativos
 
-# Tecnologías y Herramientas Utilizadas
+
+# 🛠️ Tecnologías
 
 Nexus está desarrollado utilizando tecnologías modernas enfocadas en rendimiento, escalabilidad, experiencia de usuario y facilidad de mantenimiento.
 
 El objetivo del stack tecnológico es permitir un desarrollo profesional, moderno y escalable, manteniendo una arquitectura organizada y eficiente.
 
-# Frontend
+Frontend
 React
 
 React será utilizado como la base principal del frontend de Nexus.
@@ -71,7 +78,7 @@ Navegación
 Gestión de estados visuales
 Interactividad en tiempo real
 
-# Tailwind CSS
+Tailwind CSS
 
 Tailwind CSS
 
@@ -91,7 +98,7 @@ Sistema de colores
 Animaciones básicas
 Glassmorphism y estética moderna
 
-# React Router
+React Router
 
 React Router
 
@@ -102,7 +109,7 @@ Login → Dashboard
 Dashboard → Proyecto
 Proyecto → Detalles de tarea
 
-# Backend y Servicios Cloud
+Backend y Servicios Cloud
 
 Firebase
 
@@ -115,7 +122,7 @@ Integra autenticación, base de datos y almacenamiento.
 Tiene excelente integración con React.
 Ideal para aplicaciones modernas en tiempo real.
 
-# Firebase Authentication
+Firebase Authentication
 
 Sistema de autenticación de usuarios.
 
@@ -126,7 +133,7 @@ Recuperación de contraseña
 Persistencia de sesión
 Posible login con Google en el futuro
 
-# Firestore Database
+Firestore Database
 
 Base de datos NoSQL en tiempo real.
 
@@ -143,7 +150,7 @@ Tiempo real
 Flexible
 Fácil integración con React
 
-# Firebase Storage
+Firebase Storage
 
 Sistema de almacenamiento de archivos.
 
@@ -158,7 +165,7 @@ URLs de acceso
 Organización de archivos
 Gestión de documentos
 
-# Sistema de PDFs
+Sistema de PDFs
 
 jsPDF
 
@@ -171,7 +178,9 @@ Exportar proyectos
 Combinar información y archivos
 Generar documentación organizada
 
-# Deploy y Hosting
+# ⚙️ Herramientas
+
+Deploy y Hosting
 
 Vercel
 
@@ -184,7 +193,7 @@ Excelente rendimiento para React
 HTTPS automático
 Fácil manejo de dominios
 
-# Editor de Código
+Editor de Código
 
 Visual Studio Code
 
