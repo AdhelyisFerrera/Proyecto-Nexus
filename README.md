@@ -61,6 +61,7 @@ Nexus está desarrollado utilizando tecnologías modernas enfocadas en rendimien
 El objetivo del stack tecnológico es permitir un desarrollo profesional, moderno y escalable, manteniendo una arquitectura organizada y eficiente.
 
 Frontend
+
 React
 
 React será utilizado como la base principal del frontend de Nexus.
