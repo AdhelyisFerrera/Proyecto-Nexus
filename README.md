@@ -9,8 +9,8 @@ Nexus es una aplicación moderna de productividad y gestión de tareas diseñada
 
 A diferencia de las aplicaciones tradicionales de tareas, Nexus conecta tareas con contenido real como:
 
--PDFs
--imágenes
+- PDFs
+- imágenes
 -documentos
 -notas
 -fechas límite
