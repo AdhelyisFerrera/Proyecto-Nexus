@@ -62,7 +62,7 @@ El objetivo del stack tecnológico es permitir un desarrollo profesional, modern
 
 ## Frontend
 
-React
+### React
 
 React será utilizado como la base principal del frontend de Nexus.
 
