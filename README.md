@@ -80,7 +80,7 @@ Gestión de estados visuales
 Interactividad en tiempo real
 
 
-Tailwind CSS
+### Tailwind CSS
 
 Tailwind CSS será utilizado para el diseño visual y estilos de la aplicación.
 
@@ -98,7 +98,7 @@ Sistema de colores
 Animaciones básicas
 Glassmorphism y estética moderna
 
-React Router
+### React Router
 
 React Router se utilizará para manejar la navegación interna entre pantallas.
 
@@ -108,8 +108,9 @@ Dashboard → Proyecto
 Proyecto → Detalles de tarea
 
 
-Backend y Servicios Cloud
-Firebase
+## Backend y Servicios Cloud
+
+### Firebase
 
 Firebase será utilizado como backend principal de Nexus.
 
@@ -120,7 +121,7 @@ Integra autenticación, base de datos y almacenamiento.
 Tiene excelente integración con React.
 Ideal para aplicaciones modernas en tiempo real.
 
-Firebase Authentication
+### Firebase Authentication
 
 Sistema de autenticación de usuarios.
 
@@ -131,7 +132,7 @@ Recuperación de contraseña
 Persistencia de sesión
 Posible login con Google en el futuro
 
-Firestore Database
+### Firestore Database
 
 Base de datos NoSQL en tiempo real.
 
@@ -148,7 +149,7 @@ Tiempo real
 Flexible
 Fácil integración con React
 
-Firebase Storage
+### Firebase Storage
 
 Sistema de almacenamiento de archivos.
 
@@ -163,8 +164,8 @@ URLs de acceso
 Organización de archivos
 Gestión de documentos
 
-Sistema de PDFs
-jsPDF
+## Sistema de PDFs
+### jsPDF
 
 Biblioteca utilizada para generar documentos PDF directamente desde la aplicación.
 
@@ -176,9 +177,9 @@ Combinar información y archivos
 Generar documentación organizada
 
 # ⚙️ Herramientas
-Deploy y Hosting
+## Deploy y Hosting
 
-Vercel
+### Vercel
 
 Vercel será utilizado para publicar y alojar la aplicación.
 
