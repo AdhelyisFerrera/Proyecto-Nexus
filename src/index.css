@@ -3,11 +3,28 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, sans-serif;
+  --background: #f8f7ff;
+  --surface: #ffffff;
+  --text: #1f1c33;
+
+  --primary: #6b5fc6;
+  --accent: #0f8a6b;
+}
+
+.dark {
+  --background: #0f0e1a;
+  --surface: #231f35;
+  --text: #f0eff8;
+
+  --primary: #7f77dd;
+  --accent: #1d9e75;
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--text);
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
